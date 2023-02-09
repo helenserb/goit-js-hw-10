@@ -18,7 +18,7 @@ function onInput(e) {
   cleanMarkup(countryInfo);
 
   if (searchQuery === "") {
-    Notiflix.Notify.warning('Please enter something!');
+    Notiflix.Notify.failure('Please enter something!');
     return;
   }
 
